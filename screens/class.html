@@ -78,7 +78,7 @@
 
                 <div class="card-class-container" id="card-text-2">
                     <div class="card-class text-2">
-                        <h1>3</h1>
+                        <h1></h1>
                         <p ></p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
     
             <div class="card-class-container" id="card-text-4">
                 <div class="card-class text-4">
-                    <h1>1.</h1>
+                    <h1></h1>
                     <p></p>
                 </div>
             </div>

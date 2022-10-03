@@ -1,3 +1,15 @@
+// Heart animation
+const heart = document.querySelector('.corazon-anim')
+
+heart.addEventListener('click',()=>{
+    heart.style.animation="heartBoom 3s alternate infinite,bombing 3s alternate infinite";
+})
+
+heart.addEventListener('dblclick',()=>{
+    heart.style.animation="none"
+})
+
+
 // Function selection of button
 const selectObject = (name,obj)=>{
     obj = document.getElementById(`${obj}`);
