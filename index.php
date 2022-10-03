@@ -61,7 +61,8 @@
     </header>
 
     <main>
-   
+       
+        
         <div class="modalProjects-container">
            
            
@@ -85,7 +86,7 @@
                         </h2>
 
                         <p class="card-body">Blog. En esta sección quedarán asentadas sus producciones </p>
-                        <a href="#" class="button-card-Projects-2">¡Entrar!</a>
+                        <a href="screens/building.php" class="button-card-Projects-2">¡Entrar!</a>
                     </div>
                 </div>
 
@@ -96,11 +97,16 @@
                         </h2>
 
                         <p class="card-body">Material complementario. No sólo sobre lo dado en clase sino también sobre aquello que mencionemos y despierte la curiosidad.</p>
-                        <a href="#" class="button-card-Projects-2">¡Entrar!</a>
+                        <a href="screens/building.php" class="button-card-Projects-2">¡Entrar!</a>
                     </div>
                 </div>
 
+               <button class="jokeButton" id="jokeButton"><a href="https://www.youtube.com/watch?v=G1IbRujko-A&t=33s&ab_channel=10Hours" target="_blank">¡10 automático!</a></button>
+
                
+
+                
+                   
             </div>
         </div>
 
@@ -117,5 +123,6 @@
     <script src="js/menu.js"></script>
     <script src="js/studentTitle.js"></script>
     <script src="js/missionsData.js"></script>
+   
 </body>
 </html>

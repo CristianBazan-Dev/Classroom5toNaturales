@@ -91,7 +91,7 @@ header{
 }
 
 .title{
-    font-family: Montserrat regular; 
+     
     display: flex;
     justify-content: space-between;
     margin-right: auto; 
@@ -242,7 +242,7 @@ header{
        text-align: center; 
        justify-content: center; 
        align-items: center; 
-       font-weight: bold; 
+        
     }
 
     .modalInfo-container.active{
@@ -254,7 +254,7 @@ header{
     .buttonModalInfo{
         padding: 1em 2em;
         font-size: 1em;
-        font-weight: bold; 
+         
         color: #f0f0f0;
         background: #5a0505;
         cursor:pointer; 
@@ -291,7 +291,7 @@ main {
 
 /* Modal Projects */
 
-.closeIcon-user{
+.closeIcon-use{
     position: absolute; 
     top: 0;
     right: 0; 
@@ -301,26 +301,28 @@ main {
     cursor: pointer;
     z-index: 1000; 
     display: none; 
-    
+   
 }
 
 .bar-user-1{
-    display: block; 
+    display: none; 
     width: 25px; 
     height: 3px; 
     margin: 5px auto; 
     transform: translateY(4px) rotate(45deg);
-    background-color: var(--blanco)  
+    background-color: var(--blanco)  ;
+   
      
 }
 
 .bar-user-2{
-    display: block; 
+    display: none; 
     width: 25px; 
     height: 3px; 
     margin: 5px auto; 
     transform: translateY(-4px) rotate(-45deg);
-    background-color: var(--blanco)   
+    background-color: var(--blanco);   
+    
 }
 
 .closeIcon-user.active{
@@ -637,7 +639,7 @@ main {
 .text-paragraph {
     margin: 0 1.7em; 
     font-size: 1.5em; 
-    font-weight: 600; 
+     
     line-height: 1.5; 
     color: #222; 
     /* display: flex; */
@@ -796,7 +798,7 @@ font-size: 1em;
         margin-top: 500px; 
         padding: 1em 2em;
         font-size: 1em;
-        font-weight: bold; 
+       
         color: #f0f0f0;
         background: #5a0505;
         cursor:pointer; 
@@ -857,7 +859,7 @@ font-size: 1em;
     color: var(--text);
     font-size: 1.5em; 
     text-align: center; 
-    font-weight: 800; 
+    font-weight: 700; 
 }
 
 .definition-modal,
@@ -871,7 +873,7 @@ font-size: 1em;
     color: var(--text);
     font-size: 1em; 
     text-align: center; 
-    font-weight: 600;
+   
     font-style:  italic; 
 }
 
@@ -908,7 +910,8 @@ font-size: 1em;
 
 
 
-.jokeButton {
+.jokeButton,
+.jokeButton2 {
   padding: 2.6em 4em;
   border: none;
   outline: none;
@@ -924,9 +927,11 @@ font-size: 1em;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  z-index: 100;
 }
 
-.jokeButton:before {
+.jokeButton:before,
+.jokeButton2:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -966,7 +971,8 @@ font-size: 1em;
   }
 }
 
-.jokeButton:after {
+.jokeButton:after,
+.jokeButton2:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -976,4 +982,11 @@ font-size: 1em;
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+
+.jokeButton a{
+    display: inherit;
+    color: inherit; 
+    text-decoration: none; 
 }

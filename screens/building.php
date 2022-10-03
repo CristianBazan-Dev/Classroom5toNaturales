@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5to. NaturaLengua y Literatura - Prof. Cristian</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     <header>
        
 
-        <h1 class="title"><a href="index.html">5to. CS NATURALES</a></h1>
+        <h1 class="title"><a href="../index.php">5to. CS NATURALES</a></h1>
  
        
             <nav class="nav">
@@ -62,54 +62,11 @@
 
     <main>
        
-        
-        <div class="modalProjects-container">
-           
-           
+        <h1 class="title"><a href="">PÁGINA EN CONSTRUCCIÓN</a></h1>
 
-            <div class="modal-projects">
-                <div class="card card-1">
-                    <div class="card-content">
-                        <h2 class="card-title">
-                            Clases
-                        </h2>
-                        <p class="card-body">Clases dadas por el prof. Cristian. El tema viene siendo el Realismo mágico y el rol de la mujer dentro de este género literario.</p>
-                        <a href="screens/class.html" class="button-card-Projects-2">¡Entrar!</a>
-                  
-                    </div>
-                </div>
-
-                <div class="card card-2">
-                    <div class="card-content">
-                        <h2 class="card-title">
-                            Publicaciones
-                        </h2>
-
-                        <p class="card-body">Blog. En esta sección quedarán asentadas sus producciones </p>
-                        <a href="screens/building.html" class="button-card-Projects-2">¡Entrar!</a>
-                    </div>
-                </div>
-
-                <div class="card card-3">
-                    <div class="card-content">
-                        <h2 class="card-title">
-                            #Datazos
-                        </h2>
-
-                        <p class="card-body">Material complementario. No sólo sobre lo dado en clase sino también sobre aquello que mencionemos y despierte la curiosidad.</p>
-                        <a href="screens/building.html" class="button-card-Projects-2">¡Entrar!</a>
-                    </div>
-                </div>
-
-               <button class="jokeButton" id="jokeButton"><a href="https://www.youtube.com/watch?v=G1IbRujko-A&t=33s&ab_channel=10Hours" target="_blank">¡10 automático!</a></button>
-
-               
-
-                
+        <iframe width="990" height="480" src="https://www.youtube.com/embed/xQFXmyztNH0" title="Homero Simpson - Trabajo muy duro, como un esclavo (canción) (latino)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    
-            </div>
-        </div>
-
+        
     </main>
 
     <footer>
