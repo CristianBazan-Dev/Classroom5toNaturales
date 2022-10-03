@@ -31,7 +31,7 @@
 *::before,
 *::after{
     font-family: Montserrat thin; 
-    /* animation: appear 0.5s ease; */
+    animation: appear 0.5s ease; 
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
