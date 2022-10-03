@@ -594,13 +594,15 @@ main {
 
 .presentation-img{
     display: flex; 
-    width: 700px;
-    height: 500px; 
+    width: 350px;
+    height: 250px; 
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto; 
 }
+
+
 
 .card-class.text-1{
     background-image: url(../img/class/text-1.jpg);
@@ -722,7 +724,7 @@ font-size: 1em;
 }
 
 .text-paragraph.resource{
-    animation: textColor 20s infinite alternate;
+    animation: textColor 10s infinite alternate;
 }
 
 @keyframes textColor{
@@ -787,8 +789,10 @@ font-size: 1em;
     
 }
 
-.buttonModalDefinition{
-        position: relative;  
+
+
+.buttonModalDefinition {
+     position: relative;  
         margin-top: 500px; 
         padding: 1em 2em;
         font-size: 1em;
@@ -796,14 +800,56 @@ font-size: 1em;
         color: #f0f0f0;
         background: #5a0505;
         cursor:pointer; 
-        animation: buttonShadow 5s infinite alternate; 
         z-index: 102; 
+        align-items: center;
+        background-color: #0A66C2;
+        border: 0;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        justify-content: center;
+        line-height: 20px;
+        max-width: 480px;
+        min-height: 40px;
+        min-width: 0px;
+        overflow: hidden;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        touch-action: manipulation;
+        transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
 }
 
-.title-definition{
+.buttonModalDefinition:hover,
+.buttonModalDefinition:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.buttonModalDefinition:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.buttonModalDefinition:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+.title-definition,
+.title-definition2{
     display: flex; 
     padding-top: -2px; 
-  
     justify-content: center;
     align-items: center; 
     margin-left: auto; 
@@ -814,17 +860,81 @@ font-size: 1em;
     font-weight: 800; 
 }
 
-.definition-modal{
+.definition-modal,
+.definition-modal2{
     display: flex; 
     padding-top: -2px; 
-  
     justify-content: center;
     align-items: center; 
     margin-left: auto; 
     margin-right: auto; 
     color: var(--text);
-    font-size: 1.2em; 
+    font-size: 1em; 
     text-align: center; 
     font-weight: 600;
     font-style:  italic; 
+}
+
+.definitionImg{
+    display: flex; 
+    margin-right: auto; 
+    margin-left: auto; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.definitionImg img{
+    max-width: 300px;
+    max-height: 302px; 
+}
+
+@media (orientation: landscape){
+    .title-definition,
+    .title-definition2{
+        font-size: 1em; 
+    }
+
+    .definition-modal,
+    .definition-modal2{
+        font-size: 0.8em;
+    }
+
+    .buttonModalDefinition{
+        margin-top: 300px; 
+    }
+    
+}
+
+
+.jokeButton{
+
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.jokeButton:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .jokeButton-36 {
+    padding: 0 2.6rem;
+  }
 }
