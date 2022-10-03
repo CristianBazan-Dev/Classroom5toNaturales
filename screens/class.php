@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5to. NaturaLengua y Literatura - Prof. Cristian</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -59,7 +62,7 @@
 
     <main>
        <div class="img-container"> 
-        <h1 class="class-title">El rol de la mujer en el realismo mágico</h1>
+       
         <img class="presentation-img" src="../img/clases-1.jpg" alt="Isabel Allende y el realismo mágico">
        
         <div class="themes-class-container">
