@@ -7,19 +7,19 @@ text1.addEventListener('click',()=>{
 
 const text2 = document.getElementById("card-text-2");
 
-text1.addEventListener('click',()=>{
+text2.addEventListener('click',()=>{
     document.location.href="./text/2.php"
 })
 
 const text3 = document.getElementById("card-text-3");
 
-text1.addEventListener('click',()=>{
+text3.addEventListener('click',()=>{
     document.location.href="./text/3.php"
 })
 
 const text4 = document.getElementById("card-text-4");
 
-text1.addEventListener('click',()=>{
+text4.addEventListener('click',()=>{
     document.location.href="./text/4.php"
 })
 
