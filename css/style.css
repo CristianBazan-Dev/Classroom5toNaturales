@@ -729,8 +729,20 @@ main {
     align-items: center; 
     margin-left: auto; 
     margin-right: auto; 
+   
+
 }
 
+.text-paragraph img{
+    max-width: 450px;
+    max-height: 350px; 
+}
+
+
+#ggm{
+    max-width: 450px;
+    max-height: 800px; 
+}
 
 
 

@@ -202,8 +202,9 @@ Por orden de Dominga de Adviento las esclavas más jóvenes le pintaban la cara 
                 </ul>
     
 
-               
-                
+               Ahora leerás el siguiente artículo
+                <a href="https://revistaelsur.com.ar/nota/297/El-realismo-magico-en-la-narrativa-de-Isabel-Allende#:~:text=En%20sus%20primeras%20novelas%2C%20Isabel,extraordinarios%20que%20nacen%20de%20una" target="_blank"><button class="buttonActivities page" id="activityButton" style="background:#222;color:#fff">El realismo mágico en la narrativa de Isabel Allende</button></a>
+                Y después... 
                 <a href="../3.php"><button class="buttonActivities page" id="activityButton" style="background:#222;color:#fff">Siguiente cuento: Una venganza</button></a> 
             <!-- <button class="buttonActivities page" id="activityButton">Actividades</button> -->
         </div>

@@ -394,8 +394,8 @@
         <div class="text-page">
             
             <div class="paragraph-header">"Boom" Latinoamericano y Realismo mágico</div>
-            <p class="text-paragraph image">
-                <a href='https://postimg.cc/XrcYYtQ7' target='_blank'><img src='https://i.postimg.cc/rw70Qk4W/Infograf-a-G-G-M.jpg' border='0' alt='Infograf-a-G-G-M'/></a>
+            <p class="text-paragraph image except">
+                <a href='https://postimg.cc/XrcYYtQ7' target='_blank'><img src='https://i.postimg.cc/rw70Qk4W/Infograf-a-G-G-M.jpg' border='0' alt='Infograf-a-G-G-M' id="ggm"/></a>
             </p>
             <br>
             <div class="paragraph-number">9</div>
