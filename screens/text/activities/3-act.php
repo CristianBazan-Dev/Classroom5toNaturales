@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5to. NaturaLengua y Literatura - Prof. Cristian</title>
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="modalClew-container">
+        
+        <div class="modalClew"  id="modalClew">
+            <div class="modal">
+                <div class="title-clew">
+                     
+                </div>
+         
+                
+            </div>
+             
+        </div>
+        
+        <button class="buttonModalDefinition" id="buttonClewOk">Ok</button>
+       
+     </div>
+     
+
+<div class="grid-container" id="content">
+    <header>
+       
+
+        <h1 class="title"><a href="../3.php">Actividades - La mujer del juez</a></h1>
+ 
+        <div id="student-name" class="student-name"></div>  
+        <nav class="nav">
+
+            <div id="student-name" class="student-name"></div>  
+                    <ul class ="ul-nav">
+                        <li id="student-name-userScreen" class="student-name-userScreen"></li>  
+                        <li class="li-nav" id="att">Atributo personal</li>
+                        <li class="li-nav"  id="missions">Misiones</li>
+                            <ul class="li-nav-missions">
+                                <li class="task task-I" id="task-I">La búsqueda de los recursos.</li>
+                                <li class="task task-II" id="task-II">Rescate de la reina.</li>
+                                <li class="task task-III" id="task-III">Encuentro con la magia.</li>
+                                <li class="task task-III" id="task-IV">Aprendiendo a leer mentes.</li>
+                            </ul> 
+                        <li class="li-nav" id="extraMissions">Misiones extra</li>
+                            <ul class="li-nav-missions">
+                                <li class="task extraTask-I" id="task-I">Resistente al dispositivo maléfico.</li>
+                                <li class="task extraTask-II" id="task-II">Participante activo en las asambleas del pueblo.</li>
+                                <li class="task extraTask-III" id="task-II">Inmune a los ataques de charlatanería.</li>
+                            </ul> 
+                        <li class="li-nav" id="level">Nivel</li>
+                        <li class="li-nav"><a href="" class="link-nav"></a></li>
+                    </ul>
+
+                
+
+                    <div class="closeIcon-user">
+                        <span class="bar-user-1"></span>
+                        <span class="bar-user-2"></span>
+                    </div>
+
+                     <div class="modalInfo-container">
+                        <div class="modalInfo"  id="modalInfo">
+                            <div class="modal"></div>
+                        </div>
+                        
+                        <button class="buttonModalInfo" id="buttonInfoOk">Ok</button>
+                     </div>
+                </nav>
+                
+    </header>
+   <main>
+
+        <div class="activities container">
+            <h2>Las primeras preguntas fueron resueltas en clase. La asiganatura sobre la creencia sobrenatural fue una tarea.</h2>
+            <h3>En caso de que seas un estudiante que se ha ausentado sistemáticamente, deberás resolverlos en la carpeta.</h3>
+                <ul class="activities" id="activities-1">
+                    <h3><input type="checkbox" id="check-1"></input> 1) Análisis de "Una venganza"</h3>
+                    <br>
+                    <li>a. ¿De qué depende la fama de Dulce Rosa?</li>
+                    <li>b. ¿A qué estaba habituado Tadeo Céspedes?</li>
+                    <li>c. ¿En qué momento se menciona al honor? ¿Por qué se lamenta el Senador? </li>
+                    <li>d. ¿Cuál será el sino de Dulce Rosa? ¿Se cumple</li>
+                    <li>e. <k>“Lo había llamado con el pensamiento de día y de noche durante todo ese tiempo y por fin estaba allí."</k>¿Qué sería “llamar con el pensamiento”?</li>
+                    <li>f. <k>“Tadeo Céspedes, quien nunca imaginó conocerla, porque en los años de su existencia no había tenido tiempo de aprender versos ni mirar mujeres. Él se ocupaba sólo de la Guerra Civil.”</k> <br>¿Consideran que este fragmento nos diga algo sobre la personalidad de Tadeo? ¿Por qué? ¿Qué diferencia haría que hubiese aprendido versos y mirado mujeres? </li>
+                    
+                </ul>
+    
+
+                <ul class="activities" id="activities-2">
+                    <h3><input type="checkbox" id="check-2"></input> 2) Pensar en alguna cuestión "sobrenatural" que se encuentre en tu día a día o llame tu atención. Traerla por escrito. Puede ser: </h3> 
+                    <br>
+                    <li>o	Creencia.</li>
+                    <li>o	Superstición.</li>
+                    <li>o	Ritual (como práctica cotidiana).</li>
+                    <li>o	Elemento “mágico”.</li>
+                    <li>o	Cábala.</li>
+                    <h2><b>No tiene que ser una cuestión religiosa debido a que esos aspectos son muy personales para ser tratados como objeto de estudio</b></h2>
+                   
+                </ul>
+
+              
+
+                
+            
+           <a href="../4.php"><button class="buttonActivities page" id="activityButton" style="background:#222;color:#fff">Siguiente cuento: Si me tocaras el corazón</button></a> 
+        </div>
+
+
+        
+    </main>
+
+    <footer>
+
+    </footer>
+
+</div>
+
+    
+    
+    <script src="../../js/menu.js"></script>
+    <script src="../../js/studentTitle.js"></script>
+    <script src="../../js/missionsData.js"></script>
+    <script src="../../../js/act-3.js"></script>
+</body>
+</html>

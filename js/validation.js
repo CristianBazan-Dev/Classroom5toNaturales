@@ -364,7 +364,7 @@ const estudiantes2 = [
 
 // const validation = ()=>{
   
-//     const initialLog = prompt("Sólo serás bienvenido/a si perteneces a este curso. Ingresá tu apellido para confirmar tu identidad");
+//     const initialLog = prompt("Ingresá tu apellido para confirmar tu identidad");
    
 
  
@@ -388,5 +388,5 @@ const estudiantes2 = [
 
 
 
-// validation();
+
 

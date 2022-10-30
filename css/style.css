@@ -1,6 +1,7 @@
 :root{
     --negro: #222; 
     --blanco: #999;
+    --azul: #4f5d7a;
 
 
     --clr-neutral-900: hsl(207,19%,9%);
@@ -22,6 +23,7 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box; 
+    font-family: 'Montserrat';
     
 }
 
@@ -31,7 +33,7 @@
 *::before,
 *::after{
     font-family: Montserrat thin; 
-    animation: appear 0.5s ease; 
+    /* animation: appear 0.5s ease;  */
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
@@ -68,6 +70,12 @@ body{
     margin: 0; 
 }
 
+a{
+    text-decoration: none;
+    color: inherit; 
+    font-family: 'Montserrat';
+}
+
 .grid-container{
     display: grid; 
     grid-template-areas: 
@@ -90,16 +98,24 @@ header{
     width: 100%;
 }
 
+
+
 .title{
-     
+    position: absolute;
+    left: 50; 
+    right: 50; 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center; 
     margin-right: auto; 
+    margin-left: auto; 
     letter-spacing: 2px; 
-    color: var(--negro); 
-    font-weight: thin; 
-   
+    color: var(--azul); 
+    font-style: bold; 
+    
 }
+
+
 
 .title a{
     text-decoration: none; 
@@ -228,7 +244,7 @@ header{
         margin-left: auto;
         margin-right: auto; 
         z-index: 4; 
-        background-image: url(../img/paper-texture-1.jpg); 
+        background-image: url("https://i.postimg.cc/Wzv12NnX/paper-texture-1.jpg"); 
         display: none; 
         opacity: 0; 
         animation: disappear 500ms;
@@ -385,15 +401,15 @@ main {
 
 
 .card.card-1{
-    background-image: url(../img/clases-1.jpg);
+    background-image: url("https://i.postimg.cc/JzJYXRcb/clases-1.jpg");
     animation: bg-animation 20s infinite alternate; 
 }
 
 .card.card-2{
-    background-image: url(../img/publicaciones-1.jpg);
+    background-image: url("https://i.postimg.cc/1zmpr9cb/publicaciones-1.jpg");
 }
 .card.card-3{
-    background-image: url(../img/datazos-1.jpg);
+    background-image: url("https://i.postimg.cc/MGSPbgdg/datazos-1.jpg");
 }
 
 @keyframes bg-animation {
@@ -601,8 +617,8 @@ main {
 
 .presentation-img{
     display: flex; 
-    width: 350px;
-    height: 250px; 
+    max-width: 450px;
+    max-height: 350px; 
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -612,22 +628,31 @@ main {
 
 
 .card-class.text-1{
-    background-image: url(../img/class/text-1.jpg);
+    background-image: url("https://i.postimg.cc/kG6zhK8H/text-1.jpg");
     background-size: cover; 
 }
 .card-class.text-2{
-    background-image: url(../img/class/text-2.jpg);
+    background-image: url("https://i.postimg.cc/k41PH7H2/text-2.jpg");
     background-size: cover; 
 }
 .card-class.text-3{
-    background-image: url(../img/class/text-3.jpg);
+    background-image: url("https://i.postimg.cc/D0Rk2BnF/text-3.jpg");
     background-size: cover; 
 }
 .card-class.text-4{
-    background-image: url(../img/class/text-4.jpg);
+    background-image: url("https://i.postimg.cc/VvJPQ3yD/text-4.jpg");
     background-size: cover; 
 }
 
+.card-class.text-5{
+    background-image: url(http://www.irisdeasomo.com/wp-content/uploads/2016/08/bloqueo-de-escritor-escribiendo.jpg);
+    background-size: cover; 
+}
+
+.card-class.url{
+    background-image: url(https://media.vogue.mx/photos/5ea892adbd30dc00081ff94b/2:3/w_2560%2Cc_limit/Isabel-Allende-escritora-latinoamericana-de-chile.jpg);
+    background-size: cover; 
+}
 
 /* Text  */
 
@@ -641,16 +666,73 @@ main {
    outline: solid black; 
 }
 
+
+
 .text-paragraph {
     margin: 0 1.7em; 
     font-size: 1.5em; 
-     
     line-height: 1.5; 
     color: #222; 
     /* display: flex; */
     justify-content: justify; 
     text-align: justify; 
 }
+
+.text-title{
+    display: flex;
+    padding: 1.3em; 
+    justify-content: center;
+    align-items: center; 
+    margin-left: auto; 
+    
+    font-weight: 900; 
+    font-size: 3em; 
+
+}
+
+.text-paragraph.quote{
+    margin: 0 4em; 
+    color: #833d0b;
+    font-weight: 700; 
+}
+
+.text-paragraph.quote.source{
+    margin-left: 100; 
+    text-align: right;
+}
+
+.text-paragraph.class-title,
+.text-paragraph.class-subtitle{
+    font-family: 'Helvetica';
+    font-weight: 200; 
+    font-size: 3em; 
+    color: #fff; 
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+}
+
+.text-paragraph.class-subtitle{
+    font-size: 2.5em; 
+}
+
+
+.text-paragraph.class-explanation{
+    font-family: 'Montserrat'; 
+    font-weight: 300; 
+    color: #fff; 
+}
+
+.text-paragraph.image {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
 
 .paragraph-header{
     display: flex; 
@@ -745,9 +827,77 @@ font-size: 1em;
         /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     }
 }
+.buttonActivities-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    opacity: 0.8; 
+    background: #fff; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.buttonActivities {
+       position: relative; 
+       margin: 2.5em; 
+       padding: 2em 3em;
+       font-size: 1em;
+       color: #f0f0f0;
+       background: #5a0505;
+       cursor:pointer; 
+       z-index: 10; 
+       align-items: center;
+       background-color: #0A66C2;
+       border: 0;
+       border-radius: 100px;
+       box-sizing: border-box;
+       color: #ffffff;
+       cursor: pointer;
+       font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+       font-size: 16px;
+       font-weight: 600;
+       justify-content: center;
+       line-height: 20px;
+       max-width: 480px;
+       min-height: 40px;
+       min-width: 0px;
+       overflow: hidden;
+       padding: 0px;
+       padding-left: 20px;
+       padding-right: 20px;
+       text-align: center;
+       touch-action: manipulation;
+       transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+       user-select: none;
+       -webkit-user-select: none;
+       vertical-align: middle;
+}
+
+.buttonActivities:hover,
+.buttonActivities:focus { 
+ background-color: #16437E;
+ color: #ffffff;
+}
+
+.buttonActivities:active {
+ background: #09223b;
+ color: rgb(255, 255, 255, .7);
+}
+
+.buttonActivities:disabled { 
+ cursor: not-allowed;
+ background: rgba(0, 0, 0, .08);
+ color: rgba(0, 0, 0, .3);
+}
+
+
+
 
 /* Modal of definitions */
-.modalDefinition-container{ 
+.modalDefinition-container,
+.modalClew-container{ 
     display: none;
     position: fixed; 
     opacity: 0; 
@@ -761,10 +911,11 @@ font-size: 1em;
      /* display: flex; 
    opacity: 1;
    z-index: 100;  */
-    
+  
 }
 
-.modalDefinition-container.active{
+.modalDefinition-container.active,
+.modalClew-container.active{
    display: flex; 
    opacity: 1;
    z-index: 100;   
@@ -779,7 +930,8 @@ font-size: 1em;
     z-index: 100;  */
 }
 
-.modalDefinition{
+.modalDefinition, 
+.modalClew{
     display: flex; 
     flex-direction: column; 
     background: #fff;
@@ -796,7 +948,11 @@ font-size: 1em;
     
 }
 
-
+.modalClew{
+    background: var(--azul);
+    color: #fff; 
+     
+}
 
 .buttonModalDefinition {
      position: relative;  
@@ -854,7 +1010,8 @@ font-size: 1em;
 
 
 .title-definition,
-.title-definition2{
+.title-definition2,
+.title-clew{
     display: flex; 
     padding-top: -2px; 
     justify-content: center;
@@ -912,8 +1069,56 @@ font-size: 1em;
     
 }
 
+/* Activites page */
+.activities.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    height: 100%;
+
+    background: #fff; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
 
+
+.activities{
+    display: flex;
+    flex-direction: column; 
+    justify-content: justify;
+    align-items: center; 
+    margin: 0 2em; 
+    padding:1em; 
+    text-align: justify; 
+}
+
+.activities ul{
+    color: #4f5d7a;
+}
+
+.activities li{
+    list-style: none; 
+    font-weight: 600;
+    margin-left: 1em;  
+    line-height: 2; 
+    font-style: italic; 
+}
+
+.activities div{
+    font-weight: 900; 
+    font-style: italic; 
+    margin: 2em; 
+    text-align: center; 
+}
+
+.activities.check{
+    color: #444; 
+    opacity: 0.8;
+    text-decoration: line-through; 
+}
 
 .jokeButton,
 .jokeButton2 {
@@ -995,6 +1200,7 @@ font-size: 1em;
     color: inherit; 
     text-decoration: none; 
 }
+
 
 
 
