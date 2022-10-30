@@ -23,6 +23,8 @@ text1.addEventListener('click',()=>{
     document.location.href="./text/4.php"
 })
 
+
+const url = document.getElementById("redirectionUrlClass")
 url.addEventListener('click',()=>{
     window.open("https://revistaelsur.com.ar/nota/297/El-realismo-magico-en-la-narrativa-de-Isabel-Allende#:~:text=En%20sus%20primeras%20novelas%2C%20Isabel,extraordinarios%20que%20nacen%20de%20una");
 })
