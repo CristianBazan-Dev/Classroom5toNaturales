@@ -63,7 +63,7 @@
     <main>
        <div class="img-container"> 
        
-        <img class="presentation-img" src="../img/clases-1.jpg" alt="Isabel Allende y el realismo mágico">    
+        <img class="presentation-img" src="https://i.postimg.cc/JzJYXRcb/clases-1.jpg" alt="Isabel Allende y el realismo mágico">    
         <h1 class="text-paragraph class-title">El rol de la mujer en el realismo mágico</h1>
         <p class="text-paragraph class-explanation">En la siguiente clase, iremos recorriendo diversos relatos de la autora chilena Isabel Allende para conocer el género literario conocido como "Realismo Mágico". Estos cuentos permitirán observar la participación de la mujer latinoamericana dentro de la literatura. </p>
         <br>
