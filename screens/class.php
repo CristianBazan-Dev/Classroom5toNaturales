@@ -71,11 +71,12 @@
         <h2 class="text-paragraph class-subtitle">Antecedentes</h2>
         <p class="text-paragraph class-explanation">Veníamos trabajando texto argumentativo (aquellos que presentan recursos para persuadir o convencer acerca de una idea) y comenzamos a ver algo de la narrativa hispanoparlante a través de la obra "Bodas de Sangre".</p>
         <br>
-        <p class="text-paragraph class-explanation">Es por eso que retomaremos ciertas cuestiones ya vistas en la obra de Federico Garcia Llorca: existirán varias similitudes entre Bodas de Sangre y el primer cuento que leeremos. La diferencia reside en que el cuento de Isabel Allende forma parte del género literario conocido como Realismo mágico, con características que le son propias y que lo diferencian de otro tipo de narrativa.</p>
-        <br>
-        <p class="text-paragraph class-explanation"><b>Si haces click en la carta que contiene cada relato, entrarás en una versión interactiva. En caso de que quieras descargarlo, puedes optar por clickear el botón con esa opción</p></b>
+        <p class="text-paragraph class-explanation">Dada esa cuestión, retomaremos ciertas cuestiones ya vistas en la tragedia de Federico Garcia Llorca: existirán varias similitudes entre Bodas de Sangre y el primer cuento que leeremos. La diferencia reside en que el cuento de Isabel Allende forma parte del género literario conocido como Realismo mágico, con características que le son propias y que lo diferencian de otro tipo de narrativa.</p>
         <br>
         <p class="text-paragraph class-explanation">Dicho eso, comencemos con la lectura del primer cuento tomando en consideración tres aspectos previos: el sino, el honor y el clima.</p></p>
+        <br>
+        <p class="text-paragraph class-explanation"><b>Si haces click en la carta que contiene cada relato, entrarás en una versión interactiva. En caso de que quieras descargarlo, puedes optar por clickear el botón con esa opción</p></b>
+        
         <div class="themes-class-container">
             
                 <div class="card-class-container" id="card-text-1"> 
@@ -93,12 +94,12 @@
       
 
       <h2 class="text-paragraph class-subtitle">Introducción al género</h2>
-      <p class="text-paragraph class-explanation">Luego de la lectura, habrás notado que queda algo flotando en el aire que diferencia a este cuento de "Bodas de Sangre": hay profecías que se cumplen, animales que transmiten chismes y bebes que nacen enterados de los sucesos</p>
+      <p class="text-paragraph class-explanation">Luego de la lectura, habrás notado que queda algo flotando en el aire que diferencia a este cuento de "Bodas de Sangre": hay profecías que se cumplen, animales que transmiten chismes y bebés que nacen enterados de los sucesos</p>
       <br>
-      <p class="text-paragraph class-explanation">Estas cuestiones, que a primera leída pueden pasar desapercibidas, son sobrenaturales. EL realismo mágico trata la superstición, la creencia, la magia y la espiritualidad como algo cotidiano.</p>
-      <p class="text-paragraph class-explanation">Sucede así porquese trata de un género netamente latinoamericano y, en esta parte del mundo, abundan las creencias míticas</p>
+      <p class="text-paragraph class-explanation">Estas cuestiones, que a primera leída pueden pasar desapercibidas, son sobrenaturales. El realismo mágico trata la superstición, la creencia, la magia y la espiritualidad como algo cotidiano.</p>
+      <p class="text-paragraph class-explanation">Sucede así porque se trata de un género netamente latinoamericano y, en esta parte del mundo, abundan las creencias míticas</p>
       <br>
-      <p class="text-paragraph class-explanation">Por eso, en la siguiente lectura, conoceras que diferencia y dota de identidad a este tipo de narrativa</p>
+      <p class="text-paragraph class-explanation">Por eso, en la siguiente lectura, conoceras qué diferencia y dota de identidad a este tipo de narrativa</p>
       
       <div class="themes-class-container">
         <div class="card-class-container" id="card-text-2">
@@ -114,11 +115,11 @@
     <h2 class="text-paragraph class-subtitle">Las particularidades del realismo mágico de Isabel Allende</h2>
     <p class="text-paragraph class-explanation">Leíste el último documento y tal vez, al ver a los autores, te habrás preguntado ¿Por qué no se menciona a Isabel Allende?</p>
     <br>
-    <p class="text-paragraph class-explanation">Isabel no formó parte del llamado "Boom" latinoamericano debido a cuestiones de edad: ella tenía unos módicos 18 años al momento en que los autores latinoamericanos generaban furor en el mundo. En este caso, abordaremos su narrativa no sólo por ser una autora que renovará el género sino también porque lo hará dotando de protagonismo a las mujeres de sus obras</p>
+    <p class="text-paragraph class-explanation">Isabel no formó parte del llamado "Boom" latinoamericano debido a cuestiones de edad: ella tenía unos módicos 18 años al momento en que los autores latinoamericanos generaban furor en el mundo. Sumado a eso, la presencia femenina en la literatura de la época era muy escasa, habrás notado la alta presencia de autores masculinos pero la ausencia de autoras. En este caso, abordaremos su narrativa no sólo por ser una autora que renovará el género sino también porque lo hará dotando de protagonismo a las mujeres de sus obras</p>
     <br>
-    <p class="text-paragraph class-explanation">La vida latinoamericana tiene sus particularidades, pero la experiencia <b>femenina y latinoamericana</b> suma características particulares debido a la herencia tradicional del territorio</p>
+    <p class="text-paragraph class-explanation">La vida latinoamericana tiene sus particularidades, pero la experiencia <b>femenina y latinoamericana</b> suma características peculiares debido a la herencia tradicionalista del territorio</p>
     <br>
-    <p class="text-paragraph class-explanation">Es por eso que ahora leerás un artículo dónde se comentan las particularidades de la autora, para poder profundizar los cuentos a través de la biografía de quién escribe y comprender <k>por qué escribe lo que escribe</k></p>
+    <p class="text-paragraph class-explanation">Ahora leerás un artículo dónde se comentan las características y biografía de la autora, para poder profundizar los cuentos a través de la biografía de quién escribe y comprender <k>por qué escribe lo que escribe.</k></p>
     <div class="themes-class-container">
         <div class="card-class-container" id="redirectionUrlClass">
             <div class="card-class url">
@@ -150,9 +151,9 @@
     </div>
 
     <h2 class="text-paragraph class-subtitle">El realismo mágico en su estado más puro</h2>
-    <p class="text-paragraph class-explanation">Ya sos un experto. A esta altura podes reconocer un cuento de realismo mágico con los ojos cerrados, incluso tenes una opinión bastante formada con respecto al tema</p>
+    <p class="text-paragraph class-explanation">Ya sos un experto. A esta altura podes reconocer un cuento de realismo mágico con los ojos cerrados, incluso tenes una opinión bastante formada con respecto al tema.</p>
     <br>
-    <p class="text-paragraph class-explanation">Es por eso que vas a ver todo lo que venimos charlando condensado en este relato.</p>
+    <p class="text-paragraph class-explanation">Vas a ver todo lo que venimos charlando condensado en este relato.</p>
             
     <div class="themes-class-container">
         <div class="card-class-container" id="card-text-4">
