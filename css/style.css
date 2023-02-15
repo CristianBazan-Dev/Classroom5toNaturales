@@ -24,7 +24,7 @@
     padding: 0; 
     box-sizing: border-box; 
     font-family: 'Montserrat';
-    
+
 }
 
 
@@ -60,6 +60,27 @@
         opacity: 0; 
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222;
+  }
+  
 
 body{
     display: grid; 
