@@ -81,6 +81,6 @@ buttonFunction(fanfarria,'Fanfarria','Banda de música formada por instrumentos 
 const buttonActivities = document.getElementById('activityButton');
 
 buttonActivities.addEventListener('click',()=>{
-    document.location.href="./activities/3-act.php";
+    document.location.href="./activities/3-act.html";
 })
 

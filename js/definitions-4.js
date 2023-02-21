@@ -262,6 +262,6 @@ marmita.addEventListener('click',()=>{
 const buttonActivities = document.getElementById('activityButton');
 
 buttonActivities.addEventListener('click',()=>{
-    document.location.href="./activities/4-act.php";
+    document.location.href="./activities/4-act.html";
 })
 

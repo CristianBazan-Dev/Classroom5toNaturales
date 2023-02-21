@@ -79,6 +79,6 @@ buttonFunction(austero,'Austero','Que es sencillo y sin alardes ni adornos super
 const buttonActivities = document.getElementById('activityButton');
 
 buttonActivities.addEventListener('click',()=>{
-    document.location.href="./activities/1-act.php";
+    document.location.href="./activities/1-act.html";
 })
 

@@ -1,26 +1,26 @@
-// php redirect
+// html redirect
 const text1 = document.getElementById("card-text-1");
 
 text1.addEventListener('click',()=>{
-    document.location.href="./text/1.php"
+    document.location.href="./text/1.html"
 })
 
 const text2 = document.getElementById("card-text-2");
 
 text2.addEventListener('click',()=>{
-    document.location.href="./text/2.php"
+    document.location.href="./text/2.html"
 })
 
 const text3 = document.getElementById("card-text-3");
 
 text3.addEventListener('click',()=>{
-    document.location.href="./text/3.php"
+    document.location.href="./text/3.html"
 })
 
 const text4 = document.getElementById("card-text-4");
 
 text4.addEventListener('click',()=>{
-    document.location.href="./text/4.php"
+    document.location.href="./text/4.html"
 })
 
 
@@ -32,7 +32,7 @@ url.addEventListener('click',()=>{
 
 const text5= document.getElementById("card-text-5");
 text5.addEventListener('click',()=>{
-    document.location.href="./text/5.php"
+    document.location.href="./text/5.html"
 })
 
 // // html redirect
